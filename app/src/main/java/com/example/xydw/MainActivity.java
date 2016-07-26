@@ -15,7 +15,6 @@ public class MainActivity extends Activity {
     private Button btn_start;
     private TextView tv_loc_info;
     private LocationClient locationClient = null;
-    private static final int UPDATE_TIME = 5000;
     private static int LOCATION_COUTNS = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
